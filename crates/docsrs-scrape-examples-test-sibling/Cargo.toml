@@ -1,0 +1,9 @@
+[package]
+name = "docsrs-scrape-examples-test-sibling"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+docsrs-scrape-examples-test = {path = "../docsrs-scrape-examples-test"}
